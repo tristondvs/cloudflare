@@ -1,7 +1,0 @@
----
- - hosts: '{{ target }}'
-   remote_user: cloud_user
-   become: yes
-   roles:
-   - install_python
-...
